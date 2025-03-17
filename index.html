@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Experiments</title>
+  </head>
+<body>
+  <h1 style="text-align:center; font-size:50pt;"> Javascript Experiments </h1>
+  <br/>
+  <h1 style="text-align:center; font-size:35pt;"> Number 1: Image Switcher </h2>
+  <img id = "gyat" src="image1.png"/>
+  <button onclick="switchImage('image1.png')"> Switch to Image 1</button>
+  <button onclick="switchImage('image2.png')"> Switch to Image 2</button>
+  <script>
+    function switchImage(imageSrc){
+      document.getElementById("gyat").src = imageSrc;
+    }
+  </script>
+</body>
+</html>
